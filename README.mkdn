@@ -1,0 +1,16 @@
+Billabong
+=========
+
+A simple but complete MediaWiki skin.
+
+## Requirements ##
+
+[MediaWiki 1.18+](http://www.mediawiki.org/wiki/Download)
+
+## Installation ##
+
+To install, please clone this project to the MediaWiki skins directory.
+
+In ```LocalSettings.php```, add
+
+    require_once( "$IP/skins/Billabong/Billabong.php");

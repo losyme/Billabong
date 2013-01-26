@@ -1,0 +1,256 @@
+/*
+    Billabong is a simple but complete MediaWiki skin.
+
+    Copyright (c) 2013 losyme <losyme@gmail.com>
+
+    This file is part of Billabong.
+
+    Billabong is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Foobar is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@charset "UTF-8";
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: Black;
+    background-color: White;
+    font-family: "Century Gothic", arial, helvetica, sans-serif;
+}
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a, a:visited
+{
+    color: #551A8B;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+ul
+{
+    list-style-position: inside;
+}
+
+dl dt
+{
+    font-weight: bold;
+}
+
+div.wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*
+=== Header =============================================================================================================
+*/
+
+header ul.personal
+{
+    float: right;
+    font-size: small;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul.personal li
+{
+    display: inline;
+    margin-left: 10px;
+}
+
+header div.title
+{
+    clear: both;
+}
+
+header div.actions
+{
+    background-color: Lavender;
+    border-top: 5px solid Orange;
+}
+
+header div.actions ul
+{
+    font-size: small;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+}
+
+header div.actions ul li
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+/*
+=== Content ============================================================================================================
+*/
+
+section
+{
+    float: left;
+    width: 77%;
+}
+
+section header
+{
+    border-bottom: 3px dotted #CCCCCC;
+    margin-bottom: 10px;
+}
+
+section header p
+{
+    margin: 8px 0;
+    font-size: small;
+}
+
+section header p.title
+{
+    font-weight: bold;
+}
+
+section article
+{
+    padding-bottom: 10px;
+}
+
+section article h2 { color: Black;      }
+section article h3 { color: Tomato;     }
+section article h4 { color: Teal;       }
+section article h5 { color: DodgerBlue; }
+section article h6 { color: Green;      }
+
+section article pre
+{
+    border: 1px dotted Black;
+    padding: 10px;
+    background-color: #F8F8F8;
+    overflow-x: auto;
+}
+
+section article textarea
+{
+    max-width: 100%;
+}
+
+/*
+=== SideBar ============================================================================================================
+*/
+
+aside
+{
+    float: left;
+    width: 21%;
+    margin-left: 2%;
+}
+
+aside > div
+{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: Lavender;
+}
+
+aside ul
+{
+    font-size: small;
+    padding-left: 10px;
+}
+
+/*
+=== Footer =============================================================================================================
+*/
+
+footer
+{
+    clear: both;
+}
+
+footer div.search
+{
+    background-color: #EEEEEE;
+    border-top: 5px solid #DDDDDD;
+    border-bottom: 5px solid #DDDDDD;
+}
+
+footer div.search form
+{
+    margin: 10px 0;
+}
+
+footer div.informations
+{
+    font-size: small;
+    border-bottom: 3px dotted #CCCCCC;
+}
+
+footer div.informations ul
+{
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+footer div.informations ul li
+{
+    display: inline;
+    margin-right: 5%;
+}
+
+footer p.author
+{
+    float: right;
+    margin: 5px 0 20px 0;
+    padding: 0;
+}
+
+footer p.author span
+{
+    margin: 0;
+    padding: 0 10px;
+}
+
+footer p.author span.S
+{
+    background-color: #7E827A;
+}
+
+footer p.author span.B
+{
+    background-color: #E3CDA4;
+}
+
+footer p.author span.L
+{
+    background-color: #C77966;
+}
