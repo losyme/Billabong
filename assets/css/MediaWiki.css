@@ -10,44 +10,16 @@
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Foobar is distributed in the hope that it will be useful,
+    Billabong is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+    along with Billabong. If not, see <http://www.gnu.org/licenses/>.
 */
 
 @charset "UTF-8";
-
-table.toc
-{
-    font-size: small;
-    margin-top: 10px;
-    padding: 0 50px 10px 50px;
-    background-color: #F4F4F4;
-}
-
-span.editsection
-{
-    font-size: small;
-    font-weight: normal;
-}
-
-/* >reset */
-table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td
-{
-    padding: 5px 10px;
-    text-align: center;
-    border: 1px dotted #CCCCCC;
-}
-
-table.wikitable > tr > th, table.wikitable > * > tr > th
-{
-    background-color: transparent;
-}
-/* reset< */
 
 table.wikitable
 {
@@ -63,16 +35,6 @@ table.wikitable
     background-color: White;
 }
 
-table.wikitable, table.wikitable td, table.wikitable th
-{
-    word-wrap: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;
-}
-
 table.wikitable > caption
 {
     padding: 5px;
@@ -86,6 +48,26 @@ table.wikitable tr:nth-child(odd)
     background-color: #EEEEEE;
 }
 
+/* >reset */
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td
+{
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px dotted #CCCCCC;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+table.wikitable > tr > th, table.wikitable > * > tr > th
+{
+    background-color: transparent;
+}
+/* reset< */
+
 table.wikitable td
 {
     color: #555555;
@@ -94,6 +76,20 @@ table.wikitable td
 table.wikitable.w100
 {
     width: 100%;
+}
+
+table.toc
+{
+    font-size: small;
+    margin-top: 10px;
+    padding: 0 50px 10px 50px;
+    background-color: #F4F4F4;
+}
+
+span.editsection
+{
+    font-size: small;
+    font-weight: normal;
 }
 
 #bodyContent a.external,
