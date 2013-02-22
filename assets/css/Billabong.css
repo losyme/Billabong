@@ -32,6 +32,8 @@ body
     color: Black;
     background-color: White;
     font-family: "Century Gothic", arial, helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 *
@@ -144,11 +146,17 @@ section article
     padding-bottom: 10px;
 }
 
-section article h2 { color: Black;      }
-section article h3 { color: Tomato;     }
-section article h4 { color: Teal;       }
-section article h5 { color: DodgerBlue; }
-section article h6 { color: Green;      }
+section article h2 { font-size: 1.8571em; }
+section article h3 { font-size: 1.5714em; }
+section article h4 { font-size: 1.4286em; }
+section article h5 { font-size: 1.2857em; }
+section article h6 { font-size: 1.1429em; }
+
+section article h2 { color: Black;        }
+section article h3 { color: Teal;         }
+section article h4 { color: Tomato;       }
+section article h5 { color: DodgerBlue;   }
+section article h6 { color: Green;        }
 
 section article pre
 {
@@ -254,3 +262,4 @@ footer p.author span.L
 {
     background-color: #C77966;
 }
+{"status":404,"message":"404 - Not Found"}
