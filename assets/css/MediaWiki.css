@@ -43,7 +43,12 @@ table.wikitable > caption
     font-weight: normal;
 }
 
-table.wikitable tr:nth-child(odd)
+table.wikitable tr
+{
+    background-color: White;
+}
+
+table.wikitable tr:nth-child(even)
 {
     background-color: #EEEEEE;
 }
